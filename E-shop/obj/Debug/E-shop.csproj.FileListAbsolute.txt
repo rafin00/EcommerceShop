@@ -1,0 +1,113 @@
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\E-shop.exe.config
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E-shop.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.login.resources
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.main.resources
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.signup.resources
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E-shop.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\E-shop.exe
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\E-shop.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E-shop.exe
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E-shop.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\Baccess.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\ClassLibrary1.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\Data.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\Baccess.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\ClassLibrary1.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\bin\Debug\Data.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Recovery.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.mtshirt.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.profile.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.AdminPanel.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.NewProduct.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Update_Product.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.DeleteProduct.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.New_Staff.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.UDStaff.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Stafflist.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.AddUpdateDeleteCustomer.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Selectedproduct.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.selquantity.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.ShoppingChart.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.StaffPanel.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Taken.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Staffmain.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.History1.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Trans.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\E-shop\obj\Debug\E_shop.Nottaken.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\E-shop.exe.config
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E-shop.exe
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E-shop.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\E-shop.exe
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\E-shop.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Baccess.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\ClassLibrary1.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Data.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Baccess.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\ClassLibrary1.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Data.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E-shop.csprojResolveAssemblyReference.cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.AddUpdateDeleteCustomer.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.AdminPanel.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.DeleteProduct.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.History1.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.login.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.main.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.mtshirt.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.New_Staff.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.NewProduct.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Nottaken.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.profile.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Properties.Resources.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Recovery.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Selectedproduct.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.selquantity.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.ShoppingChart.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.signup.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Stafflist.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Staffmain.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.StaffPanel.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Taken.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Trans.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.UDStaff.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E_shop.Update_Product.resources
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\obj\Debug\E-shop.csproj.GenerateResource.Cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Database1.mdf
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\E-shop\bin\Debug\Database1_log.ldf
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\E-shop.exe.config
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E-shop.exe
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E-shop.pdb
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\E-shop.exe
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\E-shop.pdb
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\Baccess.dll
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\ClassLibrary1.dll
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\Data.dll
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\Baccess.pdb
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\ClassLibrary1.pdb
+E:\Xampp\htdocs\New folder\New folder\E-shop\bin\Debug\Data.pdb
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E-shop.csprojResolveAssemblyReference.cache
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.AddUpdateDeleteCustomer.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.AdminPanel.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.DeleteProduct.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.History1.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.login.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.main.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.mtshirt.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.New_Staff.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.NewProduct.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Nottaken.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.profile.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Properties.Resources.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Recovery.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Selectedproduct.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.selquantity.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.ShoppingChart.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.signup.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Stafflist.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Staffmain.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.StaffPanel.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Taken.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Trans.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.UDStaff.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E_shop.Update_Product.resources
+E:\Xampp\htdocs\New folder\New folder\E-shop\obj\Debug\E-shop.csproj.GenerateResource.Cache

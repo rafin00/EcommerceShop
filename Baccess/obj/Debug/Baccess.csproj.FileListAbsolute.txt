@@ -1,0 +1,31 @@
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\obj\Debug\Baccess.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Database1.mdf
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Database1_log.ldf
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Baccess.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Baccess.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\ClassLibrary1.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Data.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\ClassLibrary1.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\bin\Debug\Data.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\obj\Debug\Baccess.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Baccess\obj\Debug\Baccess.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Database1.mdf
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Database1_log.ldf
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Baccess.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Baccess.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\ClassLibrary1.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Data.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\ClassLibrary1.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\bin\Debug\Data.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\obj\Debug\Baccess.csprojResolveAssemblyReference.cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\obj\Debug\Baccess.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Baccess\obj\Debug\Baccess.pdb
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\Baccess.dll
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\Baccess.pdb
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\ClassLibrary1.dll
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\Data.dll
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\ClassLibrary1.pdb
+E:\Xampp\htdocs\New folder\New folder\Baccess\bin\Debug\Data.pdb
+E:\Xampp\htdocs\New folder\New folder\Baccess\obj\Debug\Baccess.csprojResolveAssemblyReference.cache
+E:\Xampp\htdocs\New folder\New folder\Baccess\obj\Debug\Baccess.dll
+E:\Xampp\htdocs\New folder\New folder\Baccess\obj\Debug\Baccess.pdb

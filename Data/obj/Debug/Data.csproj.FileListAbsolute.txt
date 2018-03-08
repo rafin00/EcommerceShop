@@ -1,0 +1,28 @@
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\Database1.mdf
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\Database1_log.ldf
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\Data.dll.config
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\Data.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\Data.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\ClassLibrary1.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\bin\Debug\ClassLibrary1.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\obj\Debug\Data.dll
+c:\users\user\documents\visual studio 2012\Projects\Cshpro\Data\obj\Debug\Data.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\Database1.mdf
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\Database1_log.ldf
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\Data.dll.config
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\Data.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\Data.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\ClassLibrary1.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\bin\Debug\ClassLibrary1.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\obj\Debug\Data.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\obj\Debug\Data.pdb
+E:\Xampp\htdocs\New folder\New folder\Data\bin\Debug\Data.dll.config
+E:\Xampp\htdocs\New folder\New folder\Data\bin\Debug\Data.dll
+E:\Xampp\htdocs\New folder\New folder\Data\bin\Debug\Data.pdb
+E:\Xampp\htdocs\New folder\New folder\Data\bin\Debug\ClassLibrary1.dll
+E:\Xampp\htdocs\New folder\New folder\Data\bin\Debug\ClassLibrary1.pdb
+E:\Xampp\htdocs\New folder\New folder\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Xampp\htdocs\New folder\New folder\Data\obj\Debug\Data.dll
+E:\Xampp\htdocs\New folder\New folder\Data\obj\Debug\Data.pdb

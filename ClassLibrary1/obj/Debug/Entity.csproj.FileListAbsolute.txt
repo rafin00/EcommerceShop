@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\Cshpro\ClassLibrary1\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\ClassLibrary1\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Study\Prog\C#\Project\E-shop_2\Cshpro\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Xampp\htdocs\New folder\New folder\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Xampp\htdocs\New folder\New folder\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Xampp\htdocs\New folder\New folder\ClassLibrary1\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Xampp\htdocs\New folder\New folder\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Xampp\htdocs\New folder\New folder\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
