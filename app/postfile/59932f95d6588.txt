@@ -1,0 +1,117 @@
+
+
+.model small
+.stack 100h
+.data 
+
+MSG DB 'ENTER VALUE :$'
+m1 DB ' A $'
+m2 DB ' B $'
+m3 DB ' C $'
+m4 DB ' D $'
+m5 DB ' E $'
+m6 DB ' F $'
+
+.CODE
+
+MAIN PROC
+    
+
+MOV AX,@DATA
+MOV DS,AX
+
+LEA DX,MSG
+MOV AH,9
+INT 21H
+
+
+MOV AH,1
+INT 21H
+MOV BL,AL
+
+
+
+MOV AH,2
+MOV DL,0DH
+INT 21H
+MOV DL,0AH
+INT 21H
+
+
+cmp bl,57
+jge c1
+
+
+
+cmp bl,55
+jge c2
+ 
+cmp bl,56
+jge c2
+ 
+cmp bl,53
+jge c3
+
+cmp bl,54
+jge c3
+
+cmp bl,51
+jge c4
+
+cmp bl,52
+jge c4
+
+cmp bl,49
+jge c5  
+
+cmp bl,50
+jge c5
+
+jmp c6
+
+
+c1:
+lea dx,m1
+mov ah,9
+int 21h
+jmp exit
+
+c2:  
+lea dx,m2
+mov ah,9
+int 21h
+jmp exit
+
+
+c3:
+lea dx,m3
+mov ah,9
+int 21h
+jmp exit
+
+c4:
+lea dx,m4
+mov ah,9
+int 21h
+jmp exit
+        
+        
+c5:
+lea dx,m5
+mov ah,9
+int 21h
+jmp exit
+
+c6:
+lea dx,m6
+mov ah,9
+int 21h
+jmp exit
+
+EXIT:
+
+MOV AH,4CH
+INT 21H
+MAIN ENDP 
+END MAIN
+    
