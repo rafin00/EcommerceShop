@@ -1,5 +1,5 @@
 # EcommerceShop
-This is a very basic ecommerce shop made using C# windows forms.
+This is a very basic ecommerce shop made using C# windows forms and Visual Studio local database.
 Anyone can browse through the application to see different products but to perform any action login is needed.
 
 It has three panels,
