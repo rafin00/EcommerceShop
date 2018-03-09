@@ -1,5 +1,10 @@
-# EcommerceShop
+# How To run 
+Open the Visual Studio solution file name 'Cshpro.sln' to open this project in Visual Studio and Run the program from Visual Studio.
+
+# About the Project
 This is a very basic ecommerce shop made using C# windows forms and Visual Studio local database.
+
+About the Project
 Anyone can browse through the application to see different products but to perform any action login is needed.
 
 It has three panels,
