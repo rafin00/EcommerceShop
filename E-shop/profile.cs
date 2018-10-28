@@ -1,4 +1,5 @@
-﻿using Entity;
+﻿using Baccess;
+using Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,17 +15,18 @@ namespace E_shop
     public partial class profile : Form
     {
         user us;
+        Access ac = new Access();
         public profile(user us)
         {
-            this.us = us;
+            this.us = (user)ac.login(us);
             InitializeComponent();
-            nametext.Text = us.name;
-            emailtext.Text = us.email;
-            adresstext.Text = us.address;
-            phonetext.Text = us.phone;
-            passwordtext.Text = us.password;
-            label6.Text = us.username;
-            duebox.Text = us.due.ToString();
+            nametext.Text = this.us.name;
+            emailtext.Text = this.us.email;
+            adresstext.Text = this.us.address;
+            phonetext.Text = this.us.phone;
+            passwordtext.Text = this.us.password;
+            label6.Text = this.us.username;
+            duebox.Text = this.us.due.ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -15,9 +15,14 @@ namespace E_shop
 {
     public partial class DeleteProduct : Form
     {
+        string dir;
         public DeleteProduct()
         {
             InitializeComponent();
+
+            dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+
+            dir = (dir.Substring(0, dir.LastIndexOf("\\") + 1) + "Data\\Products\\");
         }
         Products pd; Access ac;
         private void deleteb_Click(object sender, EventArgs e)
@@ -26,6 +31,7 @@ namespace E_shop
             if (ac.deleteproduct(pd))
             {
                 MessageBox.Show("Success");
+                InitializeComponent();
             }
             else
             {
@@ -59,8 +65,9 @@ namespace E_shop
                 nametext.Text = pd.name;
                 quantitytext.Text = pd.quantity.ToString();
                 pricetext.Text = pd.price.ToString();
-                MemoryStream ms = new MemoryStream(pd.img);
-                pictureBox.Image = Image.FromStream(ms);
+               
+                pictureBox.Image = Image.FromFile(dir+pd.path);
+                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 deleteb.Enabled = true;
             }
         }

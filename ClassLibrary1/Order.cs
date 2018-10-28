@@ -9,7 +9,7 @@ namespace Entity
    public class Order
     {
         public string cususername, staffusername;
-            public int Id;
+            public int Id,total;
             public bool complete, taken;
     }
 }

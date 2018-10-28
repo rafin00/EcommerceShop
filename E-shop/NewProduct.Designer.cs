@@ -40,8 +40,8 @@
             this.pathtext = new System.Windows.Forms.TextBox();
             this.saveb = new System.Windows.Forms.Button();
             this.cancel = new System.Windows.Forms.Button();
-            this.typetext = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.typeBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,13 +147,6 @@
             this.cancel.Text = "Cancel";
             this.cancel.UseVisualStyleBackColor = true;
             // 
-            // typetext
-            // 
-            this.typetext.Location = new System.Drawing.Point(71, 170);
-            this.typetext.Name = "typetext";
-            this.typetext.Size = new System.Drawing.Size(100, 20);
-            this.typetext.TabIndex = 15;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -163,12 +156,23 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Type";
             // 
+            // typeBox1
+            // 
+            this.typeBox1.FormattingEnabled = true;
+            this.typeBox1.Items.AddRange(new object[] {
+            "Men",
+            "Women"});
+            this.typeBox1.Location = new System.Drawing.Point(71, 170);
+            this.typeBox1.Name = "typeBox1";
+            this.typeBox1.Size = new System.Drawing.Size(121, 21);
+            this.typeBox1.TabIndex = 16;
+            // 
             // NewProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 278);
-            this.Controls.Add(this.typetext);
+            this.Controls.Add(this.typeBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.saveb);
@@ -205,7 +209,7 @@
         private System.Windows.Forms.TextBox pathtext;
         private System.Windows.Forms.Button saveb;
         private System.Windows.Forms.Button cancel;
-        private System.Windows.Forms.TextBox typetext;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox typeBox1;
     }
 }

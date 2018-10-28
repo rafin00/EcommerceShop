@@ -60,9 +60,9 @@ namespace E_shop
                 od.staffusername = st.username;
                 od.complete = (bool)(tdgv.Rows[i].Cells["Delivered"].Value);
                 od.Id = Convert.ToInt32(tdgv.Rows[i].Cells["Order ID"].Value);
-               // od.taken = (bool)(spdgv.Rows[i].Cells["Take Order"].Value);
-                // MessageBox.Show(pd.productid.ToString()+""+pd.quantity.ToString());
-                   ac.updatespo(od);
+                od.total= Convert.ToInt32(tdgv.Rows[i].Cells["Total"].Value);
+                od.cususername = tdgv.Rows[i].Cells["Customer Name"].Value.ToString();
+                ac.updatespo(od);
                    if (od.complete == true)
                    {
                        ac.perup(od);

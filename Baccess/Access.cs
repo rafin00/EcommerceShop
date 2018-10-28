@@ -7,6 +7,7 @@ using Entity;
 using Data;
 using System.Text.RegularExpressions;
 using System.IO;
+using System.Data;
 
 namespace Baccess
 {
@@ -15,6 +16,14 @@ namespace Baccess
        
       //  Connection con = new Connection();
         Cusdb db;
+        string dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+        public Access()
+        {
+            
+
+            dir = (dir.Substring(0, dir.LastIndexOf("\\") + 1) + "Data\\Products\\");
+
+        }
         public bool add(user us)
         {
             
@@ -38,9 +47,6 @@ namespace Baccess
         {
             db = new Cusdb();
            
-                FileStream fs = new FileStream(pd.path, FileMode.Open, FileAccess.Read);
-                BinaryReader br = new BinaryReader(fs);
-                pd.img= br.ReadBytes((int)fs.Length);
          
             return db.addproduct(pd);
         }
@@ -49,6 +55,7 @@ namespace Baccess
         public object search(Products pd)
         {
             db = new Cusdb();
+            
             return db.serach(pd);
         }
 
@@ -56,9 +63,10 @@ namespace Baccess
         {
             db = new Cusdb();
 
-            FileStream fs = new FileStream(pd.path, FileMode.Open, FileAccess.Read);
-            BinaryReader br = new BinaryReader(fs);
-            pd.img = br.ReadBytes((int)fs.Length);
+            string newFileName = Guid.NewGuid() + Path.GetExtension(pd.path);
+            System.IO.File.Copy(pd.path, dir+ newFileName, true);
+            pd.path = newFileName;
+
 
             return db.updateproduct(pd);
         }
@@ -101,10 +109,27 @@ namespace Baccess
         
         }
 
-        public System.Data.DataTable getuiTable()
+        public System.Data.DataTable getuiTable(string type)
         {
             db = new Cusdb();
-            return db.getuitable();
+
+            System.Data.DataTable data = db.getuitable(type);
+
+            foreach (DataRow datarow in data.Rows)
+            {
+                if (File.Exists(dir + datarow["Path"].ToString()))
+                {
+                    FileStream fs = new FileStream(dir + datarow["Path"].ToString(), FileMode.Open, FileAccess.Read);
+                    BinaryReader br = new BinaryReader(fs);
+                    datarow["Image"] = br.ReadBytes((int)fs.Length);
+                    fs.Close();
+                }
+               
+               
+            }
+            data.Columns.Remove("Path");
+           
+            return data;
         }
 
         public bool addtochart(Products pd,user us)

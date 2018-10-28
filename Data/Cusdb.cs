@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entity;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace Data
 {
@@ -49,9 +50,9 @@ namespace Data
         public bool addproduct(Products pd)
         {
             
-            string query = "INSERT INTO Product(name,price,quantity,image,type,path)VALUES('" +pd.name + "'," +pd.price + "," + pd.quantity + ",@img,'"+pd.type+"','"+pd.path+"');";
+            string query = "INSERT INTO Product(name,price,quantity,image,type,path)VALUES('" +pd.name + "'," +pd.price + "," + pd.quantity + ",'','"+pd.type+"','"+pd.path+"');";
 
-            return con.add(query,pd.img);
+            return con.add(query);
         }
 
         public object serach(Products pd)
@@ -62,7 +63,7 @@ namespace Data
 
         public bool updateproduct(Products pd)
         {
-            string query = "UPDATe Product SET name = '"+pd.name+"', price= "+pd.price+", quantity="+pd.quantity+" , path ='"+pd.path+"', image = @img WHERE productid = "+pd.productid+";";
+            string query = "UPDATe Product SET name = '"+pd.name+"', price= "+pd.price+", quantity="+pd.quantity+" , path ='"+pd.path+"', image ='' WHERE productid = "+pd.productid+";";
             return con.updateproduct(query,pd.img);
         }
 
@@ -99,9 +100,16 @@ namespace Data
         
         }
 
-        public System.Data.DataTable getuitable()
+        public System.Data.DataTable getuitable(string type)
         {
-            string query = "Select productid as [Product ID], name as Name, price as Price, quantity as Quantity, image as Image  from Product where quantity > 0";
+            string query;
+            if (type!="")
+            query = "Select productid as [Product ID], name as Name, price as Price, quantity as Quantity, image as Image, path as Path  from Product where quantity > 0  and type='" + type+"'";
+            else
+                query = "Select productid as [Product ID], name as Name, price as Price, quantity as Quantity, image as Image, path as Path   from Product where quantity > 0 ";
+
+           
+
             return con.gettable(query);
         }
 
@@ -169,7 +177,7 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;*/
         public System.Data.DataTable getspTable(Staff st)
         {
                           //  Select Id as [Order ID], cususername as [Customer Name], complete as Complete  from Orders where staffusername is NULL;
-            string query = "Select Id as [Order ID], cususername as [Customer Name], complete as [Delivered]  from Orders where staffusername ='" + st.username + "' and taken = 1 and complete=0;";
+            string query = "Select Id as [Order ID], cususername as [Customer Name], complete as [Delivered], total as Total  from Orders where staffusername ='" + st.username + "' and taken = 1 and complete=0;";
             return con.getsptable(query);
         }
 
@@ -229,7 +237,7 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;*/
 
         public void perup(Order od)
         {
-            string query = "Update Customer set due =  due -  (SELECT sum(price * quantity) AS Value FROM Chart  WHERE Id = "+od.Id+") where cususername = '" + od.cususername + "';";
+            string query = "Update Customer set due =  (due - "+od.total+") where cususername = '" + od.cususername + "';";
            con.perup(query);
         }
 

@@ -88,6 +88,7 @@
             this.mensbutton.Text = "Men         >";
             this.mensbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.mensbutton.UseVisualStyleBackColor = true;
+            this.mensbutton.Click += new System.EventHandler(this.mensbutton_Click);
             this.mensbutton.MouseLeave += new System.EventHandler(this.mensbutton_MouseLeave);
             this.mensbutton.MouseHover += new System.EventHandler(this.mensbutton_MouseHover);
             // 
@@ -117,6 +118,7 @@
             this.jeans.TabIndex = 3;
             this.jeans.TabStop = true;
             this.jeans.Text = "Jeans";
+            this.jeans.Visible = false;
             // 
             // tshirt
             // 
@@ -129,6 +131,7 @@
             this.tshirt.TabIndex = 0;
             this.tshirt.TabStop = true;
             this.tshirt.Text = "T-shirts";
+            this.tshirt.Visible = false;
             this.tshirt.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tshirt_MouseClick);
             this.tshirt.MouseHover += new System.EventHandler(this.linkLabel1_MouseHover);
             // 
@@ -143,6 +146,7 @@
             this.watches.TabIndex = 2;
             this.watches.TabStop = true;
             this.watches.Text = "Watches";
+            this.watches.Visible = false;
             this.watches.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.watches_LinkClicked);
             this.watches.MouseEnter += new System.EventHandler(this.watches_MouseEnter);
             this.watches.MouseHover += new System.EventHandler(this.watches_MouseHover);
@@ -171,6 +175,7 @@
             this.wjeans.TabIndex = 3;
             this.wjeans.TabStop = true;
             this.wjeans.Text = "Jeans";
+            this.wjeans.Visible = false;
             // 
             // wtshirts
             // 
@@ -183,6 +188,7 @@
             this.wtshirts.TabIndex = 0;
             this.wtshirts.TabStop = true;
             this.wtshirts.Text = "T-shirts";
+            this.wtshirts.Visible = false;
             // 
             // wwatches
             // 
@@ -195,6 +201,7 @@
             this.wwatches.TabIndex = 2;
             this.wwatches.TabStop = true;
             this.wwatches.Text = "Watches";
+            this.wwatches.Visible = false;
             // 
             // women
             // 
@@ -205,6 +212,7 @@
             this.women.Text = "Women         >";
             this.women.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.women.UseVisualStyleBackColor = true;
+            this.women.Click += new System.EventHandler(this.women_Click_1);
             // 
             // uidgv
             // 
@@ -251,7 +259,7 @@
             this.refreshb.Name = "refreshb";
             this.refreshb.Size = new System.Drawing.Size(75, 23);
             this.refreshb.TabIndex = 7;
-            this.refreshb.Text = "Refresh";
+            this.refreshb.Text = "All Products";
             this.refreshb.UseVisualStyleBackColor = true;
             this.refreshb.Click += new System.EventHandler(this.refreshb_Click);
             // 

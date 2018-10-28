@@ -44,9 +44,15 @@ namespace E_shop
                 pd.price=Int32.Parse(pricetext.Text);
                 pd.quantity=Int32.Parse(quantitytext.Text);
                 pd.path = pathtext.Text;
-                pd.type = typetext.Text;
-            
-                if (ac.addproduct(pd))
+                pd.type = typeBox1.Text;
+            string dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+            string newFileName = Guid.NewGuid() + Path.GetExtension(pd.path);
+
+            dir = (dir.Substring(0, dir.LastIndexOf("\\") + 1) + "Data\\Products\\"+newFileName);
+           
+            System.IO.File.Copy(pd.path, dir, true);
+            pd.path = newFileName;
+            if (ac.addproduct(pd))
                 {
                     MessageBox.Show("Success");
                 }
@@ -57,6 +63,11 @@ namespace E_shop
         }
 
         private void NewProduct_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void typetext_TextChanged(object sender, EventArgs e)
         {
 
         }

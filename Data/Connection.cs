@@ -13,15 +13,21 @@ namespace Data
 {
    public class Connection
     {//"E:\Study\Prog\C#\Project\E-shop_2\Cshpro\Data\Database1.mdf"
-       SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=E:\Xampp\htdocs\New folder\New folder\Data\Database1.mdf;Integrated Security=True");
-       SqlDataAdapter sda;
+        SqlConnection con ; SqlDataAdapter sda;
        DataTable dt;
        SqlDataReader sdr;
         public Connection()
-        { }
-      
-     
-       public object login(string query)
+        {
+           string dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+
+            dir = (dir.Substring(0, dir.LastIndexOf("\\") + 1) + "Data\\Database1.mdf");
+
+            con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename="+dir+";Integrated Security=True");
+
+        }
+
+
+        public object login(string query)
        {
            if (con.State != ConnectionState.Open) con.Open();
            SqlCommand s = new SqlCommand(query, con);
@@ -128,7 +134,6 @@ namespace Data
           if(con.State!=ConnectionState.Open) con.Open();
            SqlCommand s = new SqlCommand(query, con);
           // CommandBehavior.Parameters.Add(new SqlParameter("@img", img));
-           s.Parameters.Add(new SqlParameter("@img", img));
            if (s.ExecuteNonQuery() == 1)
            {
                con.Close();
@@ -166,9 +171,7 @@ namespace Data
        {
            if (con.State != ConnectionState.Open) con.Open();
            SqlCommand s = new SqlCommand(query, con);
-           // CommandBehavior.Parameters.Add(new SqlParameter("@img", img));
-           s.Parameters.Add(new SqlParameter("@img", img));
-           if (s.ExecuteNonQuery() == 1)
+            if (s.ExecuteNonQuery() == 1)
            {
                con.Close();
                return true;
@@ -180,22 +183,30 @@ namespace Data
            }
        }
 
-       internal bool deleteproduct(string query)
-       {
-           if (con.State != ConnectionState.Open) con.Open();
-           SqlCommand s = new SqlCommand(query, con);
-           
+        internal bool deleteproduct(string query)
+        {
+            if (con.State != ConnectionState.Open) con.Open();
+            SqlCommand s = new SqlCommand(query, con);
+            try { 
+
+
            if (s.ExecuteNonQuery() == 1)
-           {
-               con.Close();
-               return true;
-           }
-           else
-           {
-               con.Close();
-               return false;
-           }
-       }
+            {
+                con.Close();
+                return true;
+            }
+            else
+            {
+                con.Close();
+                return false;
+            }
+        }
+            catch (Exception e)
+            {
+                return false;
+
+            }
+        }
 
        internal object searchstaff(string query)
        {

@@ -17,23 +17,25 @@ namespace E_shop
        // public static bool logged = false;
         int t1 = 30;
         user us=new user();
+        string type = "";
         public main()
         {
             InitializeComponent();
             loginb.BringToFront();
-            Loadtable();
+            Loadtable(type);
             uidgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
         Access ac;
-        void Loadtable()
+        void Loadtable(string type)
         {
 
             ac = new Access();
             BindingSource bs = new BindingSource();
-            bs.DataSource = ac.getuiTable();
+            bs.DataSource = ac.getuiTable(type);
            uidgv.DataSource = bs;
+
             ((DataGridViewImageColumn)uidgv.Columns[4]).ImageLayout = DataGridViewImageCellLayout.Stretch;
-           
+            
 
 
         }
@@ -245,7 +247,8 @@ namespace E_shop
 
         private void refreshb_Click(object sender, EventArgs e)
         {
-            Loadtable();
+            type = "";
+            Loadtable(type);
         }
 
         private void button1_Click_4(object sender, EventArgs e)
@@ -270,6 +273,18 @@ namespace E_shop
             {
                 MessageBox.Show("Login first");
             }
+        }
+
+        private void women_Click_1(object sender, EventArgs e)
+        {
+            type = "Women";
+            Loadtable(type);
+        }
+
+        private void mensbutton_Click(object sender, EventArgs e)
+        {
+            type = "Men";
+            Loadtable(type);
         }
     }
 }

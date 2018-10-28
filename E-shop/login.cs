@@ -70,9 +70,8 @@ namespace E_shop
                         
                         this.Hide();
                         AdminPanel ap = new AdminPanel();
-                        ap.ShowDialog();
-
-                        //MessageBox.Show("Success!!");
+                       ap.ShowDialog();
+                      
                     }
                     else
                     {

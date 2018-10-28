@@ -15,38 +15,54 @@ namespace E_shop
 {
     public partial class Update_Product : Form
     {
+        string dir;
         public Update_Product()
         {
             InitializeComponent();
+
+            dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+
+            dir = (dir.Substring(0, dir.LastIndexOf("\\") + 1) + "Data\\Products\\");
+
         }
         Products pd;
         Access ac;
         private void searchb_Click(object sender, EventArgs e)
         {
+            invnf.Visible = false;
             pd = new Products();
-            pd.productid = Convert.ToInt32(productidtext.Text);
-            ac = new Access();
-            object ob= ac.search(pd);
-           // MessageBox.Show(ob.GetType().ToString());
-            if (ob.GetType() == typeof(bool))
+            if (productidtext.Text != "")
             {
-                invnf.Visible = true;
-            }
-            else// if(ob.GetType()==typeof(Products))
-            {
-                invnf.Visible = false;
-                //pd = new Products();
-                pd=(Products)ob;
-                nametext.Text = pd.name;
-                quantitytext.Text = pd.quantity.ToString();
-                pricetext.Text = pd.price.ToString();
-                MemoryStream ms = new MemoryStream(pd.img);
-                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-                pictureBox.Image = Image.FromStream(ms);
-                pathtext.Text = pd.path;
-               // MessageBox.Show("here");
-            }
+                invnf.Text = "Not Found";
+                pd.productid = Convert.ToInt32(productidtext.Text);
 
+                ac = new Access();
+                object ob = ac.search(pd);
+                // MessageBox.Show(ob.GetType().ToString());
+                if (ob.GetType() == typeof(bool))
+                {
+                    invnf.Visible = true;
+                }
+                else// if(ob.GetType()==typeof(Products))
+                {
+                    invnf.Visible = false;
+                    //pd = new Products();
+                    pd = (Products)ob;
+                    nametext.Text = pd.name;
+                    quantitytext.Text = pd.quantity.ToString();
+                    pricetext.Text = pd.price.ToString();
+                    
+                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox.Image = Image.FromFile(dir+pd.path);
+                    pathtext.Text = dir+pd.path;
+                  
+                    // MessageBox.Show("here");
+                }
+            }
+            else
+            {
+                invnf.Text = "Id cannot be empty"; invnf.Visible = true;
+            }
         }
 
         private void update_Click(object sender, EventArgs e)
@@ -57,10 +73,13 @@ namespace E_shop
             pd.quantity = Convert.ToInt32(quantitytext.Text);
             pd.price = Convert.ToInt32(pricetext.Text);
             pd.path = pathtext.Text;
-
+            Products pro = new Products { productid = pd.productid };
+            pro = (Products)ac.search(pro);
+           
             if (ac.updateproduct(pd))
             {
                 MessageBox.Show("Success");
+               // File.Delete(dir + pro.path);
             }
             else
             {
@@ -76,6 +95,7 @@ namespace E_shop
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 string path = ofd.FileName;
+                ofd.Dispose();
                 pictureBox.Image = new Bitmap(path);
                 pathtext.Text = path;
                 pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;

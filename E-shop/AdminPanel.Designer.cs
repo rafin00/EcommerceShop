@@ -109,6 +109,7 @@
             this.button1.Text = "Cancel";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -157,6 +158,7 @@
             this.Controls.Add(this.newproductb);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AdminPanel_FormClosed);
             this.Load += new System.EventHandler(this.AdminPanel_Load);
             this.ResumeLayout(false);
 

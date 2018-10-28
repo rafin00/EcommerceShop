@@ -62,5 +62,15 @@ namespace E_shop
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AdminPanel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+           
+        }
     }
 }
